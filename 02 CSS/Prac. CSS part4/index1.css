@@ -1,0 +1,31 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: pink;
+    display: inline-block;
+    margin: 10px;
+}
+
+#fixed{
+    position: fixed;
+    top: 200px;
+    left: 500px;
+    background-color: yellow;
+
+
+}
+#iii{
+    background-color: aqua;
+    height: 500px;
+
+}
+#sticky{
+    position: sticky;
+    top: 100px;
+    left: 100px;
+    background-color: yellow;
+}
+P{
+    font-size: 30PX;
+}

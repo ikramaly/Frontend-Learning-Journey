@@ -1,0 +1,26 @@
+# name=['ikram ali','raja',43,54.5,56.3,'laio']
+# name.append("ikram ali")
+# name.append(87)
+
+# print(name)
+# ik1=name.sort()
+# print("sorted name list=",ik1)
+# list2.append(45)
+# list3=list2.sort()
+# print(list3)
+# print(list2)
+# list2.sort()
+# print(list2)
+list3=["ikram ali",'apple','A','a','app','ki','r','34g','345','334']
+list2=[34,45,22,356,2,0,4,-34,5.34,-223.4]
+# list2.reverse()
+# list2.sort(reverse=True)
+# print(list2)
+# print(list2.insert(3,'ikram ali'))
+# print(list2)
+# list2.remove('ikram ali')
+# print(list2)
+list2.pop(0)
+list2.pop(1)
+list2.pop(2)
+print(list2)

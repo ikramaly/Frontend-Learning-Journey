@@ -1,0 +1,28 @@
+div{
+    height: 100px;
+    width: 100px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 50%;
+    border: 10px solid rgba(0,0,255,1);
+    border-top: 10px solid red;
+    border-bottom: 10px solid rgb(9, 200, 9);
+    border-left: 10px solid rgb(252, 252, 56);
+     border-right:10px solid rgba(0,0,255,1,);
+    /* animation: looder 3s ease-in 0s infinite reverse;  */
+   /* transition: all infinite ease-in 0s; */
+   animation: myloader 2s ease 0s infinite normal;
+}
+/* div:hover{
+        background-color: pink;
+        transform: rotate(360deg);
+        transition-duration: infinite;
+} */
+ @keyframes myloader {
+    from{
+        transform: rotate(0deg);
+    }    
+    to{
+        transform: rotate(360deg);
+    }
+ }

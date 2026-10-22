@@ -1,0 +1,32 @@
+body{
+    background-color: wheat;
+    font-family: Georgia;
+
+}
+p{
+    background-color: rgb(165, 42, 42);
+    text-align: center;
+    color: antiquewhite;
+    line-height: 30px;
+}
+h1,h2,h3{
+    text-align: center;
+
+}
+h1{
+    color: red;
+    text-decoration: underline;
+
+}
+h3{
+    color:black;
+}
+a{
+    color: rgb(48, 19, 163);
+    text-decoration: none;
+    
+}
+textarea{
+    color: black;
+    /*Hex code for black is (0,0,0)*/
+}

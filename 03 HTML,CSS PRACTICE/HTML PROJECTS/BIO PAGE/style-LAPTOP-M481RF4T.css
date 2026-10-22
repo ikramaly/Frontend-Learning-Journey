@@ -1,0 +1,70 @@
+h1{
+    color: rgb(136, 32, 234);
+    font-weight: bold;
+    text-align: center;
+}
+#ikram{
+    border: 2px solid black;
+    border-right: 5px solid;
+    border-bottom: 5px solid;
+    height:220px;
+    width: 150px;
+    display: inline-block;
+    background-image: url("ikram.jpg");
+    background-size: cover;
+    /* padding-bottom: 70px; */
+}
+#div1{
+    border: 2px solid transparent;
+    height: 200px;
+    width: 550px;
+    display: inline-block;
+    position: absolute;
+    left: 180px;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+
+}
+
+
+HR{
+    border: 2px solid ;
+}
+big{
+    display: inline;
+    font-weight: bold;
+}
+body{
+    background-color: whitesmoke;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

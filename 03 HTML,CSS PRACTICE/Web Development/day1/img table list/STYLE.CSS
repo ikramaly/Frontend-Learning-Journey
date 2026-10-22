@@ -1,0 +1,55 @@
+*{
+    /* text-align: center; */
+}
+body{
+    background-color: whitesmoke;
+}
+th{
+    
+    background-color: yellow;
+}
+#dbms{
+    background-color: skyblue;
+}
+#cg{
+    background-color: rgb(83, 202, 83);
+}
+#dw{
+    background-color: rgb(231, 246, 96);
+}
+#coi{
+    background-color: rgb(202, 78, 177);
+}
+#wt{
+    background-color: brown;
+}
+#daa{
+    background-color: rgb(147, 47, 228);
+}
+#lib{
+    background-color: rgba(255,23,34,.8);
+}
+#web{
+    background-color: bisque;
+}
+#pdp{
+    background-color: rgb(75, 246, 235);
+}
+#daalab{
+    background-color: palevioletred;
+}
+#mini{
+    background-color: rgb(193, 207, 238);
+}
+#act{
+    background-color: rgb(175, 222, 57);
+}
+table{
+    height: 500px;
+    border: 0px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+
+
+}

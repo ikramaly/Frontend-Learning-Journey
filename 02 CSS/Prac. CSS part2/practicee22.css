@@ -1,0 +1,38 @@
+*{
+    text-align:center;
+
+}
+#mainTopic{
+    color: blue;
+}
+h1 h3{
+    font-style: Georgia;
+
+}
+.para{
+    color: white;
+    background-color: cornflowerblue;
+}
+div button{
+    background-color: purple;
+    color: azure;
+}
+button:hover{
+    background-color: yellow;
+    color: blue;
+}
+.para:nth-of-type(2n+1){
+    /* background-color: ; */
+    color: yellow;
+}
+h1::first-letter{
+    color: red;
+    /* font-size: x-large; */
+}
+input[type="checkbox"]:checked + label{
+    color: rgb(208, 229, 148);
+    font-weight: bold;
+    background-color: rgb(118, 42, 165);
+
+
+}

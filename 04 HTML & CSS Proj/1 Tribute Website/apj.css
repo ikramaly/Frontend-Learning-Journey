@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(184, 176, 192);
+}
+.container{
+    overflow-y: auto;
+    width: 95%;
+    border: 15px solid rgb(149, 149, 236);
+    margin: auto;
+}
+.outer{
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.namediv{
+    margin-left: 50px;
+    letter-spacing: 2mm;
+     align-self: flex-end;
+    margin-bottom: 100px;
+    cursor: pointer;
+   
+
+}
+.imgdiv,img{
+    height: 300px ;
+    width: 250px;
+    border-radius: 50px;
+    cursor: pointer;
+    
+}
+h3{
+    letter-spacing: normal;
+    text-align: end;
+    cursor: pointer;
+}
+.info{
+    height: auto;
+    width: 80%;
+    margin: auto;
+}
+.heading1{
+    margin-top: 0px;
+    letter-spacing: 1mm;
+    cursor: pointer;
+}
+.para{
+    margin-top: 20px;
+    font-size: 17px;
+    line-height: 25px;
+    letter-spacing: 1.2px;
+    text-align: justify;
+
+}
+.biography{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.biotext ul {
+    margin-left: 30px;
+    line-height: 25px;
+    letter-spacing: 1.2px;
+}
+.aboutapj{
+    margin-top: 50px;
+    text-align: end;
+    letter-spacing: 1.2px;
+}
+a{
+    text-decoration: none;
+}
+span{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(73, 73, 214);
+    cursor: pointer;
+}

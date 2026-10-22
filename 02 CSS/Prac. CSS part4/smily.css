@@ -1,0 +1,37 @@
+#outer{
+    background-color: orange;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+/* #inner{
+
+    
+} */
+/* .eyes{
+    
+} */
+#mouth{
+    height: 50px;
+    width: 200px;
+    background-color: brown;
+    position: absolute;
+    top:200px;
+    left: 100px;
+    border-radius: 0 0 50px 50px ;
+    margin-top: 50px;
+        
+}
+.left-eyes,.right-eyes{
+    height: 50px;
+    width:50px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+
+}
+.right-eyes{
+    left: 250PX;
+}

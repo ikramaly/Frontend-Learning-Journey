@@ -1,0 +1,75 @@
+
+input:hover{
+    color: brown;
+    background-color: antiquewhite;
+    font-weight: 900;
+    letter-spacing: 2px;
+
+}
+h3:hover, h1:hover{
+    text-decoration: olive 2px underline;
+    background-color: paleturquoise
+}
+button:active{
+    background-color: skyblue;
+    color: black;
+}
+input[type="radio"]:checked +label{
+    color: red;
+    font-weight: 800;
+    /* font-size: 25px; */
+    /* background-color: pink; */
+}
+/* div>input>{
+    color:hotpink;
+} */
+/* div:nth-of-type(1n){
+    background-color: blueviolet;
+} */
+p:nth-of-type(1n){
+    background-color: rgb(179, 179, 90);
+    font-size: bold;
+    line-height: 2;
+}
+h1::first-letter{
+    color: rgb(122, 7, 26);
+    /* background-color: rgb(240, 179, 245); */
+    /* text-decoration: overline; */
+    
+}
+p::first-letter{
+    color: rgb(253, 251, 255);
+    background-color: black;
+}
+#div p::first-line,p::first-letter{
+    color: hotpink;
+    background-color: aquamarine;
+    line-height: 2;
+    font-size: 25px;
+
+
+}
+#div p::selection{
+    color: brown;
+    background-color: wheat;
+    /* text-decoration: 2px red underline; */
+    /* font-size: 50px; */
+    /* line-height: 2; */
+    /* font-family: 'Times New Roman', Times, serif; */
+    /* font-style: italic;
+    letter-spacing: 2mm; */
+}
+#div p {
+    background-color: blueviolet;
+}
+#login{
+    background-color: rgb(22, 22, 16);
+    color: white;
+}
+button:hover{
+    color: wheat;
+    background-color: brown;
+    text-align: center;
+    line-height: 2;
+    
+}

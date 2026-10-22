@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.petcontainer{
+    height: 80vh;
+    width:100%;
+    /* border: 2px solid black; */
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#h2{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-style: italic;
+    color: rgb(190, 111, 27);
+    cursor: pointer;
+}
+span{
+    color: rgb(170, 105, 6);
+}
+#h1{
+    margin: 10px 0px 50px 10px ;
+
+}
+.pet1{
+    height: 100%;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+.images{
+    height: 40%;
+    width: 95%;
+    /* border: 2px solid black; */
+    margin: 10px;
+    border-radius: 30px;
+    transition: all 1s ;
+}
+.image{
+    height: 100%;
+    width: 100%;
+    border-radius: 30px;
+    cursor: pointer;
+    
+}
+.heading{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+    
+}
+.para{
+    margin: 10px 10px 0 10px;
+    font-family: Times New Roman ;
+    letter-spacing: normal;
+    line-height: 22px;
+}
+.images:hover{
+    box-shadow: 3px 3px 7px black;
+}
+.pet1:hover{
+    background-color: rgb(236, 221, 221);
+    
+}
+@media(max-width:400px){
+    .petcontainer{
+        flex-wrap: wrap;
+    }
+}

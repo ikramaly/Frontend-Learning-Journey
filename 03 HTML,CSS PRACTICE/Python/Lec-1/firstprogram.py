@@ -1,0 +1,7 @@
+print("hello world")
+print("ikram ali")
+print(23)
+print(23,23,3)
+print("hii",34,"h34","34",)
+print('fhur hdsu jfdi ' )
+print(23)

@@ -1,0 +1,62 @@
+*{
+    padding:0;
+    color:white;
+    margin:0;
+}
+#container{
+    height: 200px;
+    display: flex;
+   
+    background-color: red;
+
+}
+
+.boxes{
+    height: 200px;
+    width: 300px;
+    background-color:RED;
+    background-image: cover;
+}
+.boxes1{
+    height: 200px;
+    width: 300px;
+    background-color:RED;
+    background-image: cover;
+    margin-left:320px;
+}
+
+.img-src{
+    height: 200px;
+    width: 300px;
+}
+h1{
+    font-size: 30px;
+    color:black;
+    text-align: center;
+    margin-top:50px;
+}
+#para{
+    height: 50px;
+    background-color: blue;
+    font-size: 20px;
+    text-align: center;
+}
+
+#form{
+    height: 400px;
+    width: 350px;
+    background-color:wheat;
+    margin-left:400px;
+    margin-top:100px;
+    border-radius:10px;
+}
+#input{
+    height: 20px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top:10px;
+}
+#login{
+    color:black;
+    margin-top:10px 0 0 20px;
+}

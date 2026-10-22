@@ -1,0 +1,43 @@
+form{
+    border: 2px solid black;
+    
+}
+label{
+    margin-left:10px;
+}
+input{
+    position: relative ;
+    left: 30px;
+}
+#username{
+    position: relative;
+    left: 50px;
+}
+#father{
+    position: relative;
+    left: 10px;
+}
+#mother{
+    position: relative;
+    left: 4px;
+}
+#religion{
+    position: relative;
+    left: 33px;
+}
+#cast{
+    position: relative;
+    left: 60px;
+}
+#gender{
+    position: relative;
+    left: 40px;
+}
+#phone{
+    position: relative;
+    left:20px;
+}
+#email{
+    position: relative;
+    left: 50px;
+}

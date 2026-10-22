@@ -1,0 +1,22 @@
+h1{
+    color: rgb(103, 9, 103);
+}
+button{
+    background-color: gray;
+    color: antiquewhite;
+}
+button:hover{
+    height: 25PX;
+    /* width: 50PX; */
+    box-shadow: 2px 2px 5px sienna;
+}
+p{
+    background-color: pink;
+    border: 2px solid black;
+    /* height: 100px ; */
+}
+#img{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+}

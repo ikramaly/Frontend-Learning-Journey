@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first_section{
+    min-height: 100vh;
+    background-image: url("images/developer.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.text_container{
+    color: white;
+    /* border: 2px solid; */
+    display: inline-block;
+    position: absolute;
+    top: 80px;
+    left: 28%;
+}
+.intro_text{
+    margin: 25px;
+    letter-spacing: 1mm;
+    font-size: 50px;
+    cursor: pointer;
+}
+.span_text{
+    font-size: 35px;
+}
+#span_name{
+    color: rgb(224, 104, 52);
+    cursor: pointer;
+}
+.bottom_section{
+    background-color: rgb(23, 22, 22);
+    min-height: 150px;
+    color: white;
+    text-align: center;
+}
+.bottom_section h1 {
+    /* border: 2px solid; */
+    padding-top: 30PX;
+    letter-spacing: .5mm;
+
+} 
+#span_you{
+    font-size: 60px;
+    margin-left: 5px;
+}
+.work_section{
+    min-height: 600px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.mywork_container{
+    /* border: 2px solid black; */
+    height: 500px;
+    width:80%;
+    display: flex;
+    justify-content: space-around;
+}
+.mywork{
+    height: 450px;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+    transition: all 1s ;
+    cursor: pointer;
+}
+.mywork:hover{
+    box-shadow: 4px 4px 12px black;
+}
+.img{
+    width: 400px;
+    width: 200px;
+}
+.img img{
+    width: 400px;
+    height: 200px;
+}
+.info h2{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.info p{
+    padding: 10px;
+    line-height: 20px;
+}
+.contact_container{
+    min-height: 400px;
+    background-color: grey;
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+.contact_section {
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.conatcme{
+    height: 300px;
+    width: 400px;
+    color: white;
+}
+.conatcme h2{
+    font-size: 35px;    
+    cursor: pointer;
+}
+.conatcme p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+#about_color{
+  background-image: linear-gradient(to top, 
+  #30cfd0 0%, #330867 100%);
+}
+#contact_color{
+    background-image: linear-gradient(to top, #505285 0%, #585e92 12%, 
+    #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, 
+    #9795d4 75%, #a2a1dc 87%, #b5aee4 100%);
+}
+.footer_div{
+    padding: 20px;
+    font-size: 30px;
+    letter-spacing: 1mm;
+    animation-name: Footer;
+    animation-duration: 14s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+@keyframes Footer{
+    from{
+        transform: translateX(100%);
+        
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+.orange{
+    color: orange;
+    cursor: pointer;
+}

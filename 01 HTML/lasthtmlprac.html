@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions </title>
+    <style>
+        div{
+            color: rgb(175, 31, 31);
+            background-color: rgb(119, 179, 121);
+        }
+        h1{
+            background-color: yellow;
+            color: skyblue;
+        }
+        button{
+            background-color: rgb(15, 17, 17);
+            color: chartreuse;
+        }
+        h4{
+            background-color: chocolate;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <caption> Student Information </caption>
+        <tr>
+            <th rowspan="6"> Info </th>
+            <th rowspan="2"> Name </th>
+            <th colspan="2"> Address</th>
+        </tr>
+        <tr>
+            <th> City </th>
+            <th> House </th>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>Delhi</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td> B </td>
+            <td> Mumbai </td>
+            <td> 2 </td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>Kolkata</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>Pune</td>
+            <td>4</td>
+        </tr>
+
+    </table>
+    <br>
+    <hr>
+    <form action="/server">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" name="user" id="name" placeholder="Writr here.....">
+        </div>
+        <br>
+        <div>
+            <h4>Choose Your Gender :</h4>
+            <input type="radio" name="gen" id="male" value="Male">
+            <label for="male">Male : </label>
+            <input type="radio" name="gen" id="female" value="Female">
+            <label for="female">Female : </label>
+            <input type="radio" name="gen" id="Gay" value="Gay">
+              <label for="Gay">Gay : </label>
+        </div><br>
+        <div>
+            <label for="Country">Country : </label>
+            <select name="country" id="country">
+                <option value="select">Select an option </option>
+                <option value="ind">India</option>
+                <option value="Pak">Pakistan</option>
+                <option value="Afg">Afganistan</option>
+                <option value="Nep">Nepal</option>
+                <option value="Sri">Srilanka</option>
+                <option value="Chi">China</option>
+            </select>
+            <br><br>
+        </div>
+        <div>
+            <label for="feedback">Feedback : </label> <br>
+            <textarea name="feedback" id="feedback" cols="100" rows="15" placeholder="Write here.........."></textarea>
+            <br>
+            <big> Choose Your Preference : </big><br>
+            <label for="1">Weight : </label>
+            <input type="range" name="weight" id="1" min="50" max="80" step="1">
+            <label for="2">Height : </label>
+            <input type="range" name="height" id="2" step="1" min="5" max="10">
+            <br>
+            <br>
+            <label for="check">Subscribe?</label>
+            <input type="checkbox" name="check" id="check">
+            <br>
+            <br>
+            <button type="submit">Submit  </button>
+        </div>
+    </form>
+    <hr>
+    <form action="/server">
+        <h1>Feedback Form</h1>
+        <div>
+            <label for="username">Name : </label>
+            <input type="text" name="user" id="username" placeholder="write your name.."><br>
+            <label for="Email"> Email :</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <br>
+        <div>
+
+            <label for="Message"> Message :</label><br>
+            <textarea type="text" name="feedback" id="Message" placeholder="Write Here....." cols="100" rows="10"></textarea>
+
+        </div>
+        <div>
+            <big>Rate us our of 5 &#11088 :</big><br><br>
+            
+            <input type="radio" name="rating" id="11" value="one">
+            <label for="11">1 &#11088</label><br>
+            
+            <input type="radio" name="rating" id="22" value="two">
+            <label for="22">2 &#11088</label><br>
+           
+            <input type="radio" name="rating" id="3" value="three">
+             <label for="3">3 &#11088</label><br>
+           
+            <input type="radio" id="4" name="rating" value="four">
+            <label for="4">4 &#11088</label><br>
+            
+            <input type="radio" name="rating" id="5" value="five">
+            <label for="5">5 &#11088</label><br>
+        </div><br>
+        <div>
+            <button type="submit"> Send Your Message ! </button>
+        </div>
+    </form>
+</body>
+</html>

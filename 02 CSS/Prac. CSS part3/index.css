@@ -1,0 +1,48 @@
+div{
+    height: 200px;
+    background-color: pink;
+    width:500px;
+    border: 2px solid black;
+    border-radius: 20px ;
+    /* border-radius: 20px ;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    margin: 20px 10px 10px 20px; */
+    /* padding-left: 10px; */
+    padding-top: 20px;
+    /* margin: 20px 20px; */
+    margin: 30px 50px 1px;
+    margin: 20px 50px 0 100px;
+
+    /* padding-right: 10px; */
+    /* padding-bottom: 50px; */
+    /* margin-top: 100px;
+    margin-left: 20px;
+    margin-right:20px ; */
+    /* padding: 10px 20px 10px 50px; */
+  
+    
+}
+h1{
+    border: 2px dotted black ;
+}
+/* button{
+    margin-top: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+} */
+/* button{
+    background-color: brown;
+    color: white;
+    line-height: 2;
+    font-weight: bold;
+    letter-spacing: 1mm;
+    padding: 50px;
+    padding: 20px 100px;
+    padding: 20px 30px 50px;
+    padding: 10px 20px 30px 40px;
+    border-radius: 30px;
+    /* text-align: center; */

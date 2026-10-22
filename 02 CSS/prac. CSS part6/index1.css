@@ -1,0 +1,26 @@
+
+#outer{
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 20PX;
+    /* border: 2px solid ; */
+}
+
+#loader1{
+    height:230px ;
+    width: 230px;
+    align-self: center;
+    border: 16px solid black;
+    border-top: 16px solid goldenrod;
+    border-radius: 50%;
+    animation: Loader 2s linear infinite;
+    
+}
+@keyframes Loader{
+    0%{
+       transform: rotate(0deg);
+    }
+    100%{
+       transform: rotate(360deg);
+    }
+}
